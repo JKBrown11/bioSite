@@ -1,0 +1,78 @@
+/* Jaci Brown || CSD 340 || bioSite CSS*/
+
+header, footer, #container, #navbar {
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(73, 105, 137);
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(73, 105, 137);
+    border-bottom: 15px solid black;
+    
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    background-color: rgb(226,244, 197);
+    
+
+}
+
+#container {
+    
+    background-color: rgb(73,105,137);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20%;
+    max-width: 100%;
+
+}
+
+#card {
+    float: left;
+    max-width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#card-title {
+    text-align: center;
+}
+#card-content{
+    text-align: center;
+}
+
+#card_blurb{
+    float: right;
+    max-width: 75%;
+}
+
+#card2 {
+    float: right;
+    max-width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#card2_blur{
+    float: left;
+    max-width: 75%;
+}
