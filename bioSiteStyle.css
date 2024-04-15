@@ -1,6 +1,6 @@
 /* Jaci Brown || CSD 340 || bioSite CSS*/
 
-header, footer, #container, #navbar {
+header, body, footer, .container, #navbar {
     display: block;
     font-size: 16px;
     font-family: Arial, Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ header {
     padding: 10px;
 }
 
-img {
+header img {
     max-width: 100%;
 }
 
@@ -36,43 +36,67 @@ img {
 body{
     position: relative;
     background-color: rgb(226,244, 197);
-    
-
+    min-height: 100%;
+    margin-bottom: 10%;
+   
 }
 
-#container {
-    
+.container {
+    position: relative;
     background-color: rgb(73,105,137);
     border-radius: 10px;
     padding: 5px;
-    margin: 10px;
+    min-height: 150px;
+    max-height: fit-content;
+    margin: 10%;
     max-width: 100%;
+    margin-top: 10%;
 
 }
 
-#card {
+.card {
     float: left;
     max-width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(226,244, 197)
 }
-#card-title {
+.card-title {
     text-align: center;
 }
-#card-content{
+.card-content{
     text-align: center;
 }
 
-#card_blurb{
+.card_blurb{
     float: right;
     max-width: 75%;
 }
 
-#card2 {
+.card2 {
     float: right;
     max-width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-#card2_blur{
+
+.card2 img{
+    height: 200px;
+    width: 100%;
+}
+
+.card2_blurb{
     float: left;
     max-width: 75%;
+}
+
+#footer {
+    position: absolute;
+    margin-bottom: 0px;
+    background-color: rgb(73,105,137);
+    width: 100%;
+    text-align: right;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
 }
