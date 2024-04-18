@@ -60,6 +60,7 @@ body{
 .card {
     float: left;
     max-width: 30%;
+    max-height: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 1%;
     border: 1px solid rgb(226,244, 197);
@@ -73,6 +74,7 @@ body{
     float: right;
     max-width: 60%;
     text-align: center;
+    line-height: 1.4em;
     padding: 1%;
 
 }
@@ -88,7 +90,7 @@ body{
     
     float: right;
     max-width: 30%;
-    max-height: 50%;
+    max-height: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 1%;
     border: 1px solid rgb(226,244, 197);
@@ -103,6 +105,7 @@ body{
     float: left;
     max-width: 60%;
     text-align: center;
+    line-height: 1.4em;
     padding: 1%;
 }
 
@@ -118,6 +121,7 @@ body{
     background-color: rgb(88, 163, 153);
     border-radius: 10px;
     line-height: 1.75em;
+    overflow: hidden;
     
 }
 p {
