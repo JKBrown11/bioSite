@@ -1,4 +1,8 @@
 /* Jaci Brown || CSD 340 || bioSite CSS*/
+/*
+blue - rgb(73, 105, 137)
+green - rgb(88, 163, 153)
+*/
 
 header, body, footer, .container, #navbar {
     display: block;
@@ -9,10 +13,31 @@ header, body, footer, .container, #navbar {
 h2 {
     font-size: 20px;
 }
+#pageTitle {
+    
+    text-align: center;
+    background-color: rgb(73, 105, 137);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    margin-top: 1%;
+}
 
+#pageTitle p {
+   
+    color: black;
+    font-size: 12px;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+}
 figcaption a {
     color: black;
     text-decoration: none;
+    font-size: 12px;
 }
 
 figcaption a:hover {
@@ -48,6 +73,10 @@ header img {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: rgb(88, 163, 153);
 }
 
 body{
